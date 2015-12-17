@@ -1,0 +1,4 @@
+## Particle Affectors ##
+Particle affectors modify particles over their lifetime. They are classified by 'type' e.g. 'LinearForce' affectors apply a force to all particles, whilst 'ColourFader' affectors alter the colour of particles in flight. New affectors can be added to Ogre by creating plugins. You add an affector to a system by nesting another section within it, headed with the keyword 'affector' followed by the name of the type of affector (case sensitive). Ogre currently supports 'LinearForce' and 'ColourFader' affectors.
+
+Particle affectors actually have no universal attributes; they are all specific to the type of affector.
